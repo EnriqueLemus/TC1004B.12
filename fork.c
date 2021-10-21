@@ -5,7 +5,7 @@ int main(){
   if(pid==0){
     printf("Soy el proceso hijo");
   } else {
-  printf("Soy el proceso padre");
+  printf("Soy el padre y mi hijo es d%", pid);
   }
   return 0;
 }  
